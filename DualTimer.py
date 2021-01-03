@@ -191,11 +191,11 @@ def done():
     
     with open('DualTimer_' + dateStr + '_' + timeStr + '.csv', 'w', newline= '') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerows([["Timer 1 ('a' key) Interactions", 'Duration']])
+        writer.writerows([["Timer 1 (a key)", 'Duration (sec)']])
         for i in range(0,len(aInteracts),1):
             writer.writerows([[i+1, str(aInteracts[i])]])
         writer.writerow('')
-        writer.writerows([["Timer 2 ('d' key) Interactions", 'Duration']])
+        writer.writerows([["Timer 2 (d key)", 'Duration (sec)']])
         for i in range(0,len(dInteracts),1):
             writer.writerows([[i+1, str(dInteracts[i])]])
             
