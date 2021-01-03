@@ -4,7 +4,7 @@ to simultaneously record two interaction types and their
 duration over a set period of time.
 
 <p align="center">
-  <img src="/assets/DualTimer.gif" width="400"></img>
+  <img src="/assets/DualTimer.gif" height="200"></img>
 </p>
 
 ## Motivation
@@ -25,7 +25,7 @@ to record their data.
     - Pause - space
 - Exports data as a CSV (duration of each interaction)
 <p align="center">
-    <img src="/assets/Output.png" height="300"></img>
+    <img src="/assets/Output.png" height="200"></img>
 </p>
 
 ## Built using
